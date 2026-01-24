@@ -1,7 +1,7 @@
 package com.malex.controller;
 
 import com.malex.event.MessageEvent;
-import com.malex.producer.KafkaProducer;
+import com.malex.KafkaProducer;
 import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

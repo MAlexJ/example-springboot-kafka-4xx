@@ -1,0 +1,20 @@
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_SERVER}
+
+    properties:
+      security.protocol: SSL
+
+      ssl.keystore.location: ${KEYSTORE_LOCATION}
+      ssl.keystore.password: ${KEYSTORE_PASSWORD}
+      ssl.keystore.type: ${KEYSTORE_TYPE}
+
+      ssl.truststore.location: ${TRUSTSTORE_LOCATION}
+      ssl.truststore.password: ${TRUSTSTORE_PASSWORD}
+      ssl.truststore.type: ${TRUSTSTORE_TYPE}
+
+      ssl.endpoint.identification.algorithm: https
+
+      consumer:
+        topic: events-topic
+        group-id: consumer-group-id
