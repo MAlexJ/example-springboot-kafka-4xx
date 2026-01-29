@@ -3,14 +3,14 @@
 ## Description
 
 * Event streaming platform - Kafka
-* Web framework - Spring Boot 3
-* Java version 21
+* Web framework - Spring Boot 4.0.2
+* Java version 25
 
 ## Docker
 
 docker-compose.yml
 
-### How to set up kafka:
+### How to set up Kafka:
 
 link for info - https://customer.cloudkarafka.com/instance </br>
 documentation: https://www.cloudkarafka.com/docs/spring.html </br>
